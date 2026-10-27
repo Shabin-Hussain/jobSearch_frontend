@@ -1,1 +1,1 @@
-export const serverUrl = "http://localhost:3000"
+export const serverUrl = "https://jobsearch-backend-2ls3.onrender.com"
