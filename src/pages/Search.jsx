@@ -86,8 +86,8 @@ function Search() {
                               <h6><FontAwesomeIcon icon={faCalendarXmark} style={{color: "rgb(116, 192, 252)",}} /><span style={{fontSize:'14px'}}>Closing on:</span> {item.lastdate}</h6>
                         </div>
                         <div className="col-md-2">
-                            <p className='text-danger' style={{fontSize:'10px'}}>Please Login to Apply!</p>
-                           <Link to={'/choose'}> <button className='btn btn-primary rounded'>Login</button></Link>
+                            <p className='text-danger text-center' style={{fontSize:'10px'}}>Please Login to Apply!</p>
+                           <div className='d-flex align-items-center justify-content-center'><Link to={'/choose'}> <button className='btn btn-primary rounded'>Login</button></Link></div>
                         </div>
                     </div>))}
                </>

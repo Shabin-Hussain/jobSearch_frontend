@@ -10,7 +10,7 @@ function Job({jobs,visibleJobs}) {
         <>
             <Row >
               {jobs.slice(0,visibleJobs).map((job, index)=>(<Col key={index} sm={12} md={4} lg={4} className='d-flex align-items-center justify-content-center  mt-md-5'>
-                    <Card style={{ width: '100%' }} className='rounded shadow  p-3 hvr'>
+                    <Card style={{ width: '100%' }} className='rounded shadow  p-3 hvr mb-4'>
 
                         <Card.Body  key={job.id} className='text-center'>
                             <Card.Title className='text-primary'><h4><b>{job.jobtitle}</b></h4></Card.Title>

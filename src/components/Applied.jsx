@@ -51,10 +51,10 @@ function Applied({jobs1,login,appliedJobs,appliedJobsList}) {
             {jobs1?.length >0 ? jobs1.map((item)=>(<Col sm={12} md={4} lg={4} key={item.id} className='mt-2'>
             <div className='border rounded shadow p-4'>
                <div className='row'>
-                    <div className="col-md-4">
-                        <img src="/emp.png" alt="" width={'100px'}/>
+                    <div className="col-4">
+                        <img src="/emp.png" alt="" width={'100%'}/>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-8">
                         <h5>{item.jobtitle}</h5>
                         <h6 className='mt-1'><FontAwesomeIcon icon={faBriefcase} /><span style={{fontSize:'12px'}}>Company:</span>{item.cname} </h6>
                          <h6 className='mt-1'><FontAwesomeIcon icon={faCalendarDays} /><span style={{fontSize:'12px'}}>Publish on:</span>{item.posteddate} </h6>

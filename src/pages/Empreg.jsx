@@ -32,7 +32,7 @@ function Empreg() {
                 const result1 = await emploginApi();
                 console.log(result1);
 
-                const user = result1.data.find(user => user.username === username || user.password === password || user.email === email);
+                const user = result1.data.find(user => user.username === username || user.email === email);
 
                 if (user) {
                     toast.error('User already existing');
